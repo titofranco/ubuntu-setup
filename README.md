@@ -1,5 +1,7 @@
 ubuntu-setup
 ============
+
+```sh
 cd $HOME
 sudo apt-get install -y git-core
 git clone https://github.com/titofranco/ubuntu-setup
@@ -9,3 +11,4 @@ ln -sb dotfiles/.bash_profile .
 ln -sb dotfiles/.bashrc .
 mv .emacs.d .emacs.d~
 ln -s dotfiles/.emacs.d .
+```
