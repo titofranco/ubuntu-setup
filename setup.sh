@@ -71,3 +71,9 @@ sudo apt-get install -y imagemagick libmagickwand-dev
 wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-0.90.0.deb
 sudo dpkg -i elasticsearch-0.90.0.deb
 sudo service elasticsearch start
+
+#Wine
+sudo add-apt-repository ppa:ubuntu-wine/ppa
+sudo apt-get build-dep wine1.5
+apt-get --build source wine1.5
+sudo dpkg -i wine*.deb
