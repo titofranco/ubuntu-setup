@@ -30,6 +30,7 @@ sudo apt-get install -y emacs24-nox emacs24-el emacs24-common-non-dfsg emacs-sna
 
 #RVM dependencies
 sudo apt-get -y install gawk libgdbm-dev pkg-config libffi-dev build-essential openssl libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev automake libtool bison subversion python
+sudo apt-get -y install libcurl3 libcurl3-gnutls libcurl4-openssl-dev
 
 #Install RVM, Ruby and Rails
 curl -L https://get.rvm.io | bash -s stable --rails
