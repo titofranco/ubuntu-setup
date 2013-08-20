@@ -46,7 +46,7 @@ sudo apt-get -y install ruby1.9.1-dev
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
 #Mysql server
-sudo apt-get -y install mysql-server
+sudo apt-get -y install mysql-server libmysqlclient-dev
 
 #Mongodb
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
