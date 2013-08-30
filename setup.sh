@@ -49,7 +49,7 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 sudo apt-get -y install mysql-server libmysqlclient-dev
 
 #Postgresql
-sudo apt-get -y libpq-dev
+sudo apt-get -y install libpq-dev
 
 #Mongodb
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
