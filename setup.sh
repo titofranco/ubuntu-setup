@@ -50,11 +50,14 @@ sudo apt-get -y install mysql-server libmysqlclient-dev
 
 #Postgresql
 sudo apt-get -y install postgresql pgadmin3 libpq-dev
+# hstore postgresql extension
+sudo apt-get -y install postgresql-contrib
 sudo -u postgres createuser --superuser $USER
 echo "Please set the password running this command: \password your-machine-username , then exit with Ctrl + D"
 sudo -u postgres psql
 sudo -u postgres createdb $USER
 sudo service postgresql restart
+
 
 #Mongodb
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
