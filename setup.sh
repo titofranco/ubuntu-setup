@@ -84,6 +84,13 @@ wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearc
 sudo dpkg -i elasticsearch-0.90.0.deb
 sudo service elasticsearch start
 
+#redis
+wget http://download.redis.io/redis-stable.tar.gz
+tar xvzf redis-stable.tar.gz
+cd redis-stable
+make
+cd $HOME
+
 #Wine
 sudo add-apt-repository ppa:ubuntu-wine/ppa
 sudo apt-get build-dep wine1.5
